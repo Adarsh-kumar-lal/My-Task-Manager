@@ -282,3 +282,19 @@ body.dark #toggleDarkMode {
 body.dark #toggleDarkMode:hover {
     background-color: #4a667a; /* Darker hover */
 }
+
+footer {
+    margin-top: 50px; /* Space above footer */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.85em;
+    color: #7f8c8d;
+    border-top: 1px solid #e0e0e0; /* Subtle line above footer */
+    width: 100%;
+    max-width: 700px; /* Match content width */
+}
+
+body.dark footer {
+    color: #bdc3c7;
+    border-top-color: #4a667a;
+}
