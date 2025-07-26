@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Modern Task Manager</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>My Task Manager</h1>
+
+    <div class="controls">
+        <input type="text" id="taskInput" placeholder="Enter your task" />
+        <select id="priority">
+            <option value="low">Low</option>
+            <option value="medium" selected>Medium</option>
+            <option value="high">High</option>
+        </select>
+        <input type="date" id="dueDate" />
+        <button id="addTask">Add Task</button>
+    </div>
+
+    <div class="filter-bar">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="active">Active</button>
+        <button class="filter" data-filter="completed">Completed</button>
+        <button id="clearCompleted">Clear Completed</button>
+        <button id="toggleDarkMode">🌙</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
