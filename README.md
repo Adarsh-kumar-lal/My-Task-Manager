@@ -23,7 +23,7 @@
 
 ## 🚀 Live Demo
 
-Experience the app live here: [https://8-adarsh.github.io/My-Task-Manager/](https://8-adarsh.github.io/My-Task-Manager/)
+Experience the app live here: https://adarsh-kumar-lal.github.io/My-Task-Manager/
 
 ## 🏃 How to Run Locally
 
